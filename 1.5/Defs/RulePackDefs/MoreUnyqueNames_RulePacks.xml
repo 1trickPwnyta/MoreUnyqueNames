@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>MoreUnyqueNames_Female</defName>
+    <rulePack>
+	  <rulesStrings>
+        <li>MoreUnyqueNames_FirstName(p=9)->[MoreUnyqueNames_FirstSyllable][MoreUnyqueNames_SecondSyllable]</li>
+        <li>MoreUnyqueNames_FirstName->[MoreUnyqueNames_FirstSyllable][MoreUnyqueNames_SecondSyllable] [MoreUnyqueNames_SecondName]</li>
+      </rulesStrings>
+	  <rulesFiles>
+        <li>MoreUnyqueNames_SecondName->Names/MoreUnyqueNames_SecondNameFemale</li>
+        <li>MoreUnyqueNames_FirstSyllable->Syllables/MoreUnyqueNames_FirstSyllableFemale</li>
+        <li>MoreUnyqueNames_SecondSyllable->Syllables/MoreUnyqueNames_SecondSyllableFemale</li>
+	  </rulesFiles>
+	</rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>MoreUnyqueNames_Male</defName>
+    <rulePack>
+	  <rulesStrings>
+        <li>MoreUnyqueNames_FirstName(p=9)->[MoreUnyqueNames_FirstSyllable][MoreUnyqueNames_SecondSyllable]</li>
+        <li>MoreUnyqueNames_FirstName->[MoreUnyqueNames_FirstSyllable][MoreUnyqueNames_SecondSyllable] [MoreUnyqueNames_SecondName]</li>
+      </rulesStrings>
+	  <rulesFiles>
+        <li>MoreUnyqueNames_SecondName->Names/MoreUnyqueNames_SecondNameMale</li>
+        <li>MoreUnyqueNames_FirstSyllable->Syllables/MoreUnyqueNames_FirstSyllableMale</li>
+        <li>MoreUnyqueNames_SecondSyllable->Syllables/MoreUnyqueNames_SecondSyllableMale</li>
+	  </rulesFiles>
+	</rulePack>
+  </RulePackDef>
+
+</Defs>

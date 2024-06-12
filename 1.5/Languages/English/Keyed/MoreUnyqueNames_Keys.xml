@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<MoreUnyqueNames_Chance>Chance of generating unyque name: {0_percentage}</MoreUnyqueNames_Chance>
+	<MoreUnyqueNames_OverrideAllNames>Override all names</MoreUnyqueNames_OverrideAllNames>
+	<MoreUnyqueNames_OverrideAllNamesDesc>Whether to generate unyque names in place of any name, even those that were generated based on backstory, xenotype, etc.</MoreUnyqueNames_OverrideAllNamesDesc>
+	<MoreUnyqueNames_OverrideSolidBio>Even names from solid bios</MoreUnyqueNames_OverrideSolidBio>
+	<MoreUnyqueNames_OverrideSolidBioDesc>Whether to generate unyque names for pawns with full "name in game" bios</MoreUnyqueNames_OverrideSolidBioDesc>
+</LanguageData>
